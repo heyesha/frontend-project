@@ -1,4 +1,54 @@
 .header__top {
-    background-color: var(--black);
+    background-color: var(--color-black);
     padding: 16px 0;
+    color: var(--color-white);
+}
+
+.header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__time {
+    position: relative;
+    padding-left: 25px;
+}
+
+.header__time::after {
+    content: url(../img/time.svg);
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+}
+
+.header__link-geo {
+    position: relative;
+    padding: 2px;
+    padding-left: 25px;
+    -webkit-transition: color 0.3s ease-in-out, outline 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, outline 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.link-reset {
+    text-decoration: none;
+    outline: none;
+}
+
+.t-14 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--white);
+    margin: 0;
 }
