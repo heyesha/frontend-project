@@ -1,33 +1,16 @@
 .social {
     gap: 25px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
-.list-reset {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 .d-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
 }
 
 .social__link {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-transition: outline 0.3s ease-in-out;
     transition: outline 0.3s ease-in-out;
 }
 
@@ -36,7 +19,7 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 160%;
-    color: var(--white);
+    color: var(--color-white);
     margin: 0;
 }
 
@@ -44,6 +27,5 @@
     fill: var(--color-white);
     width: 20px;
     height: 20px;
-    -webkit-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
 }
