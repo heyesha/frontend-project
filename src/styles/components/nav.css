@@ -1,0 +1,20 @@
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__item--ft-17 {
+    font-size: 17px;
+    font-family: var(--font-family);
+}
+
+.nav__link {
+    color: var(--color-light-white);
+    padding: 2px;
+    padding-left: 19px;
+    position: relative;
+}
+
+.nav__link--active {
+    color: var(--color-active-green);
+}

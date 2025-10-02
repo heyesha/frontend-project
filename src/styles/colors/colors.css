@@ -1,8 +1,12 @@
 :root {
   --color-white: #e3e3e3;
-  --color-black: #1d1d1d;
+  --color-light-white: #FFFFFF;
+  --color-black: #181818;
+  --color-light-black: #353535;
   --color-gray: #1B1B1B;
   --color-yellow: #FFCC4A;
   --color-green: #4EAF4E;
+  --color-active-green: #5ab612;
   --color-primary: #181818;
+  --font-family: "Lato", sans-serif;
 }

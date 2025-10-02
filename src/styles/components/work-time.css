@@ -1,0 +1,16 @@
+.work-time {
+    position: relative;
+    padding-left: 25px;
+}
+
+.work-time--ft-14 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--color-white);
+}
+
+.work-time__svg {
+    position: absolute;
+    left: 0;
+}
