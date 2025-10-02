@@ -10,13 +10,12 @@
     gap: 12px;
 }
 
-.t-18 {
+.phone--ft-18 {
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
     line-height: 160%;
-    color: var(--color-black);
-    margin: 0;
+    color: #353535;
 }
 
 .phone__icon {

@@ -1,0 +1,17 @@
+.location {
+    position: relative;
+    padding: 2px;
+    padding-left: 25px;
+}
+
+.location--ft-14 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--color-white);
+}
+
+.location__svg {
+    position: absolute;
+    left: 0;
+}

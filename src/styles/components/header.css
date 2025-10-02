@@ -10,39 +10,7 @@
     align-items: center;
 }
 
-.header__time {
-    position: relative;
-    padding-left: 25px;
-}
-
-.header__svg {
-    position: absolute;
-    left: 0;
-}
-
-.header__link-geo {
-    position: relative;
-    padding: 2px;
-    padding-left: 25px;
-}
-
-.link-reset {
-    text-decoration: none;
-    outline: none;
-}
-
-.t-14 {
-    font-family: var(--font-family);
-    font-size: 14px;
-    line-height: 160%;
-    color: var(--color-white);
-}
-
 .header__bot {
     background: rgba(27, 27, 27, 0.91);
     padding: 40px 0;
-}
-
-.header__logo {
-    display: block;
 }
