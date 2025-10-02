@@ -3,31 +3,18 @@
     gap: 30px;
 }
 
-.nav__item {
-
+.nav__item--ft-17 {
+    font-size: 17px;
+    font-family: var(--font-family);
 }
 
 .nav__link {
+    color: var(--color-light-white);
     padding: 2px;
     padding-left: 19px;
     position: relative;
 }
 
-.t-17 {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 160%;
-    color: var(--color-white);
-    margin: 0;
-}
-
 .nav__link--active {
     color: var(--color-active-green);
-}
-
-.list-reset {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
