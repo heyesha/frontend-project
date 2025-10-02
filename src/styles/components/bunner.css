@@ -15,17 +15,6 @@
     padding: 60px;
 }
 
-.bunner__tag {
-    font-family: var(--font-family);
-    background-color: var(--color-yellow);
-    border-radius: 20px;
-    padding: 0px 11px;
-    width: 118px;
-    height: 24px;
-    letter-spacing: 0.14em;
-    margin-bottom: 25px;
-}
-
 .bunner__title {
     font-family: var(--second-family);
     font-weight: 700;
