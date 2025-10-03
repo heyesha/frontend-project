@@ -1,9 +1,10 @@
+
 .nav__list {
     display: flex;
     gap: 30px;
 }
 
-.nav__item--ft-17 {
+.nav__item {
     font-size: 17px;
     font-family: var(--font-family);
 }

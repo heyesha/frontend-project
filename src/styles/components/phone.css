@@ -2,20 +2,17 @@
     border-radius: 42px;
     padding: 8px 41px 8px 10px;
     background: var(--color-light-white);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--color-light-black);
 }
 
 .phone__link {
     display: flex;
     align-items: center;
     gap: 12px;
-}
-
-.phone--ft-18 {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 160%;
-    color: #353535;
 }
 
 .phone__icon {

@@ -8,5 +8,40 @@
     display: flex;
     background-color: var(--color-gray);
     border-radius: 20px;
-    padding: 49px;
+    padding: 45px;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.card__item--background-black {
+    background-color: var(--color-black);
+    color: var(--color-light-white);
+}
+
+.card__title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 116%;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.card__title--white {
+    color: var(--color-light-white);
+}
+
+.card__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: #595566;
+}
+
+.card__text--white {
+    color: var(--color-light-white);
+}
+
+.card__icon {
+    margin-bottom: 25px;
 }
