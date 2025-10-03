@@ -4,3 +4,6 @@ node_modules
 /public
 /tmp
 /src/styles/normalize.css
+/src/index.css
+/src/styles/colors/colors.css
+/src/styles/components
