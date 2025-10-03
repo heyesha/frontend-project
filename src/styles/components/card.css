@@ -9,10 +9,9 @@
     background-color: var(--color-gray);
     border-radius: 20px;
     padding: 45px;
-    transition: background-color 0.3s ease-in-out; 
 }
 
-.card__item--background-black {
+.card__item--bg-black {
     background-color: var(--color-black);
     color: var(--color-light-white);
 }
@@ -35,7 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 148%;
-    color: #595566;
+    color: var(--color-text-gray);
 }
 
 .card__text--white {
@@ -43,5 +42,22 @@
 }
 
 .card__icon {
-    margin-bottom: 25px;
+
+}
+
+.card__icon--margin {
+    margin-bottom: 20px;
+    margin-left: -15px
+}
+
+.card__icon--mb-38 {
+    margin-bottom: 38px;
+}
+
+.card__icon--mb-35 {
+    margin-bottom: 35px;
+}
+
+.card__icon--mb-13 {
+    margin-bottom: 14px;
 }
