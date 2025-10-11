@@ -1,0 +1,16 @@
+.pricing-plan {
+    background-color: var(--color-light-white);
+    border-radius: 20px;
+}
+
+.pricing-plan__top {
+    background: var(--color-black);
+    color: var(--color-light-white);
+}
+
+.pricing-plan__title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 116%;
+}
