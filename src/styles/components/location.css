@@ -1,13 +1,9 @@
 .location {
-    position: relative;
-    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: var(--font-family);
     font-size: 14px;
     line-height: 160%;
     color: var(--color-white);
-}
-
-.location__svg {
-    position: absolute;
-    left: 0;
 }
