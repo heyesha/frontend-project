@@ -1,0 +1,45 @@
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 28px;
+    width: 100%;
+}
+
+.form__field {
+    font-family: var(--font-family), var(--second-family), sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form__field--width {
+    grid-column: 2 span;
+}
+
+.form__label {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: var(--color-black);
+}
+
+.form__input {
+    border: 1px solid #c1c1c1;
+    background-color: var(--color-light-white);
+    border-radius: 54px;
+    padding: 22px 33px;
+    width: 100%;
+}
+
+
+.form__input--width {
+    border-radius: 22px;
+    min-height: 157px;
+    padding-top: 20px;
+}
+
+.form__btn {
+    max-width: 168px;
+}
