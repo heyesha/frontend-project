@@ -1,0 +1,42 @@
+.process {
+    display: flex;
+    column-gap: 84px;
+}
+
+.process__media {
+    padding: 55px 0;
+}
+
+.process__media--w-120 {
+    width: 120%;
+}
+
+.process__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+.process__title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 116%;
+    color: var(--color-black);
+}
+
+.process__item-title {
+    display: flex;
+    gap: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.process__text {
+    padding-left: 50px;
+    color: var(--color-text-gray);
+    font-size: 16px;
+}
+
