@@ -19,3 +19,11 @@
     background-color: var(--color-black);
     color: var(--color-light-white);
 }
+
+.button--white {
+    background-color: var(--color-light-white);
+    color: var(--color-black);
+    margin-top: 16px;
+    padding: 15px 23px;
+    width: 100%;
+}
