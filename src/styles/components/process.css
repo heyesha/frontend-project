@@ -1,6 +1,6 @@
 .process {
     display: flex;
-    column-gap: 84px;
+    column-gap: 80px;
 }
 
 .process__media {
@@ -31,7 +31,12 @@
     gap: 18px;
     font-weight: 600;
     font-size: 20px;
+    line-height: 116%;
     color: var(--color-black);
+}
+
+.process__item-title--mb-9 {
+    margin-bottom: 9px;
 }
 
 .process__text {
