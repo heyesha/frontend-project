@@ -15,5 +15,8 @@
 }
 
 .pricing__plans {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
     
 }

@@ -1,11 +1,19 @@
 .pricing-plan {
     background-color: var(--color-light-white);
     border-radius: 20px;
+    padding: 21px;
+    padding-bottom: 40px;
 }
 
 .pricing-plan__top {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 10px;
     background: var(--color-black);
+    border-radius: 20px;
     color: var(--color-light-white);
+    padding: 31px 28px;
 }
 
 .pricing-plan__title {
@@ -13,4 +21,43 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 116%;
+}
+
+.pricing-plan__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: var(--color-light-white);
+}
+
+.pricing-plan__line {
+    border: 1px dashed #565656;
+    width: 272px;
+    height: 0px;
+}
+
+.pricing-plan__price-row {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-top: 10px;
+}
+
+.pricing-plan__price {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 116%;
+    text-align: center;
+    color: var(--color-light-white);
+}
+
+.pricing-plan__features {
+    padding: 33px;
+}
+
+.pricing-plan__feature {
+    display: flex;
+    gap: 15px;
 }
