@@ -1,0 +1,22 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.pricing__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 116%;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.pricing__plans {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    
+}
