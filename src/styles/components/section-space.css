@@ -1,5 +1,8 @@
 .section-space {
-  padding-top: 170px;
-  padding-bottom: 170px;
+  padding: 150px 0;
+  background-color: var(--color-section-bg);
+}
+
+.section-space--bg-white {
   background-color: var(--color-light-white);
 }

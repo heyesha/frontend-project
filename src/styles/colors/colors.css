@@ -4,9 +4,11 @@
   --color-black: #181818;
   --color-light-black: #353535;
   --color-gray: #ebebeb;
+  --color-section-bg: #f5f5f5;
   --color-text-gray: #595566;
   --color-yellow: #FFCC4A;
   --color-green: #4EAF4E;
   --color-active-green: #5ab612;
   --font-family: "Lato", sans-serif;
+  --second-family: "Cabin", sans-serif;
 }
