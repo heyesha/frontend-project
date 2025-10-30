@@ -15,8 +15,17 @@
 }
 
 .pricing__plans {
-    display: flex;
+    /* display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 49px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 49px;
-    
+}
+
+@media (--xl-viewport) {
+  .pricing__plans {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

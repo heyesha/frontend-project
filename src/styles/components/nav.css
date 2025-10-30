@@ -1,7 +1,23 @@
+.nav {
+    display: none;
+}
+
+@media (--lg-viewport) {
+  .nav {
+    display: block;
+  }
+}
 
 .nav__list {
     display: flex;
+    gap: 15px;
+}
+
+
+@media (--xl-viewport) {
+  .nav__list {
     gap: 30px;
+  }
 }
 
 .nav__item {

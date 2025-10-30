@@ -1,6 +1,14 @@
 .contact {
     display: flex;
-    column-gap: 100px;
+    flex-direction: column;
+    column-gap: 120px;
+}
+
+@media (--md-viewport) {
+    .contact {
+        flex-direction: row;
+        column-gap: 100px;
+    }
 }
 
 .contact__info {

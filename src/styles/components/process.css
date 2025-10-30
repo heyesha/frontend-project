@@ -1,6 +1,13 @@
 .process {
     display: flex;
+    flex-direction: column;
     column-gap: 80px;
+}
+
+@media (--lg-viewport) {
+    .process {
+        flex-direction: row;
+    }
 }
 
 .process__media {
@@ -8,7 +15,13 @@
 }
 
 .process__media--w-120 {
-    width: 120%;
+    width: 100%;
+}
+
+@media (--md-viewport)) {
+    .process__media--w-120 {
+        width: 120%;
+    }
 }
 
 .process__article {
