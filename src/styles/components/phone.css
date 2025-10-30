@@ -1,12 +1,5 @@
 .phone {
-    border-radius: 42px;
-    padding: 8px 41px 8px 10px;
-    background: var(--background-secondary);
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: var(--text-primary);
+    display: none;
 }
 
 .phone__link {
@@ -19,4 +12,18 @@
     fill: var(--color-yellow);
     stroke: var(--color-black);
     transition: stroke 0.3s ease-in-out;
+}
+
+@media (--sm-viewport) {
+    .phone {
+        display: block;
+        border-radius: 42px;
+        padding: 8px 41px 8px 10px;
+        background: var(--background-secondary);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        color: var(--text-primary);
+    }
 }

@@ -14,3 +14,9 @@
     background: rgba(27, 27, 27, 0.91);
     padding: 40px 0;
 }
+
+@media (--sm-viewport) {
+    .header__container {
+        
+    }
+}

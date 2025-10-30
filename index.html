@@ -24,6 +24,8 @@
     <style media="(prefers-color-scheme: dark)">
       @import url('./src/styles/colors/dark.css');
     </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="page">
@@ -210,37 +212,72 @@
                 +(888) 452 1505
               </a>
             </div>
+            <div class="header__hamburger">
+              <button class="js-menu-active">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-menu"
+                >
+                  <line x1="3" y1="12" x2="21" y2="12"></line>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+              </button>
+            </div>
           </div>
-        </div>
 
-        <!-- <div class="burger-menu burger-menu--open" id="burger-menu">
-          <button class="burger-menu__btn btn-reset" id="burger-close" aria-label="Close menu">
-            <span class="burger-menu__line"></span>
-            <span class="burger-menu__line"></span>
-          </button>
-          <nav class="burger-menu__nav">
-            <ul class="burger-menu__list list-reset">
-              <li class="burger-menu__item">
-                <a href="/" class="burger-menu__link">Home</a>
-              </li>
-              <li class="burger-menu__item">
-                <a href="/case-studies" class="burger-menu__link">Pages</a>
-              </li>
-              <li class="burger-menu__item">
-                <a href="#" class="burger-menu__link">Services</a>
-              </li>
-              <li class="burger-menu__item">
-                <a href="#" class="burger-menu__link">Work</a>
-              </li>
-              <li class="burger-menu__item">
-                <a href="#" class="burger-menu__link link-reset t-18">Blog</a>
-              </li>
-              <li class="burger-menu__item">
-                <a href="#" class="burger-menu__link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div> -->
+          <div class="mobile-menu">
+            <div class="mobile-menu__inner">
+              <nav class="text-lg font-bold text-white p-10">
+                <ul class="flex flex-col gap-10">
+                  <li>Home</li>
+                  <li>Pages</li>
+                  <li>Services</li>
+                  <li>Work</li>
+                  <li>Pages</li>
+                  <li>Contact</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- <div class="burger-menu burger-menu--open" id="burger-menu">
+            <button class="burger-menu__btn btn-reset" id="burger-close" aria-label="Close menu">
+              <span class="burger-menu__line"></span>
+              <span class="burger-menu__line"></span>
+            </button>
+            <nav class="burger-menu__nav">
+              <ul class="burger-menu__list list-reset">
+                <li class="burger-menu__item">
+                  <a href="/" class="burger-menu__link">Home</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a href="/case-studies" class="burger-menu__link">Pages</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a href="#" class="burger-menu__link">Services</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a href="#" class="burger-menu__link">Work</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a href="#" class="burger-menu__link link-reset t-18">Blog</a>
+                </li>
+                <li class="burger-menu__item">
+                  <a href="#" class="burger-menu__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div> -->
+        </div>
       </header>
 
       <div class="page__content">
