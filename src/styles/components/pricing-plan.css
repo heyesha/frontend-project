@@ -1,5 +1,5 @@
 .pricing-plan {
-    background-color: var(--color-light-white);
+    background-color: var(--background-price);
     border-radius: 20px;
     padding: 21px;
     padding-bottom: 40px;
@@ -33,7 +33,7 @@
 
 .pricing-plan__line {
     border: 1px dashed #565656;
-    width: 272px;
+    max-width: 272px;
     height: 0px;
 }
 
@@ -66,5 +66,9 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    color: var(--color-text-gray);
+    color: var(--text-secondary);
+}
+
+.pricing-plan__icon path {
+    fill: var(--color-icons);
 }

@@ -6,7 +6,7 @@
 
 .card__item {
     display: flex;
-    background-color: var(--color-gray);
+    background-color: var(--background-card);
     border-radius: 20px;
     padding: 45px;
 }
@@ -21,7 +21,7 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 116%;
-    color: #181818;
+    color: var(--text-primary);
     margin-bottom: 10px;
 }
 
@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 148%;
-    color: var(--color-text-gray);
+    color: var(--text-secondary);
 }
 
 .card__text--white {

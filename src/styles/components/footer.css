@@ -83,6 +83,10 @@
     gap: 8px;
 }
 
+.footer__text {
+    margin-bottom: 16px;
+}
+
 .footer__bot {
         width: 100%;
     display: inline-block;

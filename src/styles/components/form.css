@@ -22,12 +22,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 148%;
-    color: var(--color-black);
+    color: var(--text-primary);
 }
 
 .form__input {
     border: 1px solid #c1c1c1;
-    background-color: var(--color-light-white);
+    background-color: var(--background-primary);
     border-radius: 54px;
     padding: 22px 33px;
     width: 100%;

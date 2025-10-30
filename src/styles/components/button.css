@@ -8,7 +8,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
-    color: var(--color-black);
+    color: var(--text-primary);
 }
 
 .button--yellow {
@@ -23,7 +23,5 @@
 .button--white {
     background-color: var(--color-light-white);
     color: var(--color-black);
-    margin-top: 16px;
     padding: 15px 23px;
-    width: 100%;
 }

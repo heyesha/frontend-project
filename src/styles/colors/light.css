@@ -1,6 +1,21 @@
 :root {
   color-scheme: light;
 
+  /* Background group */
+  --background-default: var(--color-section-bg);
+  --background-secondary: var(--color-light-white);
+  --background-card: var(--color-gray);
+  --background-price: var(--color-light-white);
+  --background-button: var(--color-light-white);
+  --background-alfa-15: var(--color-white-alpha-15);
+
+  /* Text group */
+  --text-primary: var(--color-black);
+  --text-secondary: var(--color-text-gray);
+
+  /* Остальное */
+  --color-icons: var(--color-black);
+
   --color-primary: var(--color-white);
   --color-secondary: var(--color-black);
 }

@@ -1,6 +1,21 @@
 :root {
   color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  /* Background group */
+  --background-default: var(--color-dark-gray);
+  --background-secondary: var(--color-bg-light-gray);
+  --background-card: var(--color-black);
+  --background-price: var(--color-black);
+  --background-button: var(--color-light-white);
+  --background-alfa-15: var(--color-dark-gray);
+
+  /* Text group */
+  --text-primary: var(--color-light-white);
+  --text-secondary: var(--color-light-white);
+
+  /* Остальное */
+  --color-icons: var(--color-light-white);
+
+  --color-primary: var(--color-white);
+  --color-secondary: var(--color-black);
 }

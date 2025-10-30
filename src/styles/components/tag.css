@@ -7,6 +7,7 @@
     line-height: 1;
     display: inline-block;
     letter-spacing: 0.14em;
+    color: var(--color-light-white);
 }
 
 .tag--green {
@@ -16,4 +17,5 @@
 
 .tag--gray {
     background-color: var(--color-tag-gray);
+    color: var(--color-light-white);
 }

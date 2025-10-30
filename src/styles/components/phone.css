@@ -1,12 +1,12 @@
 .phone {
     border-radius: 42px;
     padding: 8px 41px 8px 10px;
-    background: var(--color-light-white);
+    background: var(--background-secondary);
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
-    color: var(--color-light-black);
+    color: var(--text-primary);
 }
 
 .phone__link {
